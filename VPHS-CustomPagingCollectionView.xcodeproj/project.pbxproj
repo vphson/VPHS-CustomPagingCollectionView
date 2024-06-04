@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BCE63A22C0EF0CC007F4E14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE63A12C0EF0CC007F4E14 /* AppDelegate.swift */; };
+		1BCE63A42C0EF0CC007F4E14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE63A32C0EF0CC007F4E14 /* SceneDelegate.swift */; };
+		1BCE63A62C0EF0CC007F4E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE63A52C0EF0CC007F4E14 /* ViewController.swift */; };
+		1BCE63A92C0EF0CC007F4E14 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1BCE63A82C0EF0CC007F4E14 /* Base */; };
+		1BCE63AB2C0EF0CE007F4E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCE63AA2C0EF0CE007F4E14 /* Assets.xcassets */; };
+		1BCE63AE2C0EF0CE007F4E14 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1BCE63AD2C0EF0CE007F4E14 /* Base */; };
+		1BCE63B92C0EF0CE007F4E14 /* VPHS_CustomPagingCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE63B82C0EF0CE007F4E14 /* VPHS_CustomPagingCollectionViewTests.swift */; };
+		1BCE63C32C0EF0CE007F4E14 /* VPHS_CustomPagingCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE63C22C0EF0CE007F4E14 /* VPHS_CustomPagingCollectionViewUITests.swift */; };
+		1BCE63C52C0EF0CE007F4E14 /* VPHS_CustomPagingCollectionViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE63C42C0EF0CE007F4E14 /* VPHS_CustomPagingCollectionViewUITestsLaunchTests.swift */; };
+		1BCE63D22C0EF16D007F4E14 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE63D12C0EF16D007F4E14 /* File.swift */; };
+		CAFF2F2C23A5EFE6E5D2F85F /* Pods_VPHS_CustomPagingCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870482664FD85ED753C15BAC /* Pods_VPHS_CustomPagingCollectionView.framework */; };
+		E12E5E250671E923D98137FD /* Pods_VPHS_CustomPagingCollectionViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33217B31F4B69401E5896324 /* Pods_VPHS_CustomPagingCollectionViewTests.framework */; };
+		FCFDA78EA4AA3267080CA782 /* Pods_VPHS_CustomPagingCollectionView_VPHS_CustomPagingCollectionViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88707959C2CEBA8133D2FB52 /* Pods_VPHS_CustomPagingCollectionView_VPHS_CustomPagingCollectionViewUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BCE63B52C0EF0CE007F4E14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BCE63962C0EF0CC007F4E14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BCE639D2C0EF0CC007F4E14;
+			remoteInfo = "VPHS-CustomPagingCollectionView";
+		};
+		1BCE63BF2C0EF0CE007F4E14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BCE63962C0EF0CC007F4E14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BCE639D2C0EF0CC007F4E14;
+			remoteInfo = "VPHS-CustomPagingCollectionView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042B23158920F181BF16B3F7 /* Pods-VPHS-CustomPagingCollectionViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPHS-CustomPagingCollectionViewTests.debug.xcconfig"; path = "Target Support Files/Pods-VPHS-CustomPagingCollectionViewTests/Pods-VPHS-CustomPagingCollectionViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0591E95CD1A62EFEF5A19FD8 /* Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests.release.xcconfig"; path = "Target Support Files/Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests/Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1BCE639E2C0EF0CC007F4E14 /* VPHS-CustomPagingCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VPHS-CustomPagingCollectionView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCE63A12C0EF0CC007F4E14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BCE63A32C0EF0CC007F4E14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1BCE63A52C0EF0CC007F4E14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BCE63A82C0EF0CC007F4E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BCE63AA2C0EF0CE007F4E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BCE63AD2C0EF0CE007F4E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BCE63AF2C0EF0CE007F4E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BCE63B42C0EF0CE007F4E14 /* VPHS-CustomPagingCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VPHS-CustomPagingCollectionViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCE63B82C0EF0CE007F4E14 /* VPHS_CustomPagingCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPHS_CustomPagingCollectionViewTests.swift; sourceTree = "<group>"; };
+		1BCE63BE2C0EF0CE007F4E14 /* VPHS-CustomPagingCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VPHS-CustomPagingCollectionViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCE63C22C0EF0CE007F4E14 /* VPHS_CustomPagingCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPHS_CustomPagingCollectionViewUITests.swift; sourceTree = "<group>"; };
+		1BCE63C42C0EF0CE007F4E14 /* VPHS_CustomPagingCollectionViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPHS_CustomPagingCollectionViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1BCE63D12C0EF16D007F4E14 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		33217B31F4B69401E5896324 /* Pods_VPHS_CustomPagingCollectionViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPHS_CustomPagingCollectionViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41DD16757CBB2EBD84AA2442 /* Pods-VPHS-CustomPagingCollectionViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPHS-CustomPagingCollectionViewTests.release.xcconfig"; path = "Target Support Files/Pods-VPHS-CustomPagingCollectionViewTests/Pods-VPHS-CustomPagingCollectionViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		870482664FD85ED753C15BAC /* Pods_VPHS_CustomPagingCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPHS_CustomPagingCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88707959C2CEBA8133D2FB52 /* Pods_VPHS_CustomPagingCollectionView_VPHS_CustomPagingCollectionViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPHS_CustomPagingCollectionView_VPHS_CustomPagingCollectionViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A23F499F1037F67A670F4F3 /* Pods-VPHS-CustomPagingCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPHS-CustomPagingCollectionView.release.xcconfig"; path = "Target Support Files/Pods-VPHS-CustomPagingCollectionView/Pods-VPHS-CustomPagingCollectionView.release.xcconfig"; sourceTree = "<group>"; };
+		DA5BE4B50AD3DCFBD63751AF /* Pods-VPHS-CustomPagingCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPHS-CustomPagingCollectionView.debug.xcconfig"; path = "Target Support Files/Pods-VPHS-CustomPagingCollectionView/Pods-VPHS-CustomPagingCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		E906DE1C2B0C34E8797646B2 /* Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests/Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BCE639B2C0EF0CC007F4E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFF2F2C23A5EFE6E5D2F85F /* Pods_VPHS_CustomPagingCollectionView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BCE63B12C0EF0CE007F4E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12E5E250671E923D98137FD /* Pods_VPHS_CustomPagingCollectionViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BCE63BB2C0EF0CE007F4E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFDA78EA4AA3267080CA782 /* Pods_VPHS_CustomPagingCollectionView_VPHS_CustomPagingCollectionViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BCE63952C0EF0CC007F4E14 = {
+			isa = PBXGroup;
+			children = (
+				1BCE63A02C0EF0CC007F4E14 /* VPHS-CustomPagingCollectionView */,
+				1BCE63B72C0EF0CE007F4E14 /* VPHS-CustomPagingCollectionViewTests */,
+				1BCE63C12C0EF0CE007F4E14 /* VPHS-CustomPagingCollectionViewUITests */,
+				1BCE639F2C0EF0CC007F4E14 /* Products */,
+				4D6353DA874B0448ECEB1504 /* Pods */,
+				E89A411C7B02CB564F2A9608 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1BCE639F2C0EF0CC007F4E14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BCE639E2C0EF0CC007F4E14 /* VPHS-CustomPagingCollectionView.app */,
+				1BCE63B42C0EF0CE007F4E14 /* VPHS-CustomPagingCollectionViewTests.xctest */,
+				1BCE63BE2C0EF0CE007F4E14 /* VPHS-CustomPagingCollectionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BCE63A02C0EF0CC007F4E14 /* VPHS-CustomPagingCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				1BCE63A12C0EF0CC007F4E14 /* AppDelegate.swift */,
+				1BCE63A32C0EF0CC007F4E14 /* SceneDelegate.swift */,
+				1BCE63A52C0EF0CC007F4E14 /* ViewController.swift */,
+				1BCE63D12C0EF16D007F4E14 /* File.swift */,
+				1BCE63A72C0EF0CC007F4E14 /* Main.storyboard */,
+				1BCE63AA2C0EF0CE007F4E14 /* Assets.xcassets */,
+				1BCE63AC2C0EF0CE007F4E14 /* LaunchScreen.storyboard */,
+				1BCE63AF2C0EF0CE007F4E14 /* Info.plist */,
+			);
+			path = "VPHS-CustomPagingCollectionView";
+			sourceTree = "<group>";
+		};
+		1BCE63B72C0EF0CE007F4E14 /* VPHS-CustomPagingCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BCE63B82C0EF0CE007F4E14 /* VPHS_CustomPagingCollectionViewTests.swift */,
+			);
+			path = "VPHS-CustomPagingCollectionViewTests";
+			sourceTree = "<group>";
+		};
+		1BCE63C12C0EF0CE007F4E14 /* VPHS-CustomPagingCollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BCE63C22C0EF0CE007F4E14 /* VPHS_CustomPagingCollectionViewUITests.swift */,
+				1BCE63C42C0EF0CE007F4E14 /* VPHS_CustomPagingCollectionViewUITestsLaunchTests.swift */,
+			);
+			path = "VPHS-CustomPagingCollectionViewUITests";
+			sourceTree = "<group>";
+		};
+		4D6353DA874B0448ECEB1504 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA5BE4B50AD3DCFBD63751AF /* Pods-VPHS-CustomPagingCollectionView.debug.xcconfig */,
+				9A23F499F1037F67A670F4F3 /* Pods-VPHS-CustomPagingCollectionView.release.xcconfig */,
+				E906DE1C2B0C34E8797646B2 /* Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests.debug.xcconfig */,
+				0591E95CD1A62EFEF5A19FD8 /* Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests.release.xcconfig */,
+				042B23158920F181BF16B3F7 /* Pods-VPHS-CustomPagingCollectionViewTests.debug.xcconfig */,
+				41DD16757CBB2EBD84AA2442 /* Pods-VPHS-CustomPagingCollectionViewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E89A411C7B02CB564F2A9608 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				870482664FD85ED753C15BAC /* Pods_VPHS_CustomPagingCollectionView.framework */,
+				88707959C2CEBA8133D2FB52 /* Pods_VPHS_CustomPagingCollectionView_VPHS_CustomPagingCollectionViewUITests.framework */,
+				33217B31F4B69401E5896324 /* Pods_VPHS_CustomPagingCollectionViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BCE639D2C0EF0CC007F4E14 /* VPHS-CustomPagingCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BCE63C82C0EF0CE007F4E14 /* Build configuration list for PBXNativeTarget "VPHS-CustomPagingCollectionView" */;
+			buildPhases = (
+				5923A0079E287FE9AFEF4FFC /* [CP] Check Pods Manifest.lock */,
+				1BCE639A2C0EF0CC007F4E14 /* Sources */,
+				1BCE639B2C0EF0CC007F4E14 /* Frameworks */,
+				1BCE639C2C0EF0CC007F4E14 /* Resources */,
+				D1BF5FFD2CFB2E6F27BE4B57 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VPHS-CustomPagingCollectionView";
+			productName = "VPHS-CustomPagingCollectionView";
+			productReference = 1BCE639E2C0EF0CC007F4E14 /* VPHS-CustomPagingCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BCE63B32C0EF0CE007F4E14 /* VPHS-CustomPagingCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BCE63CB2C0EF0CE007F4E14 /* Build configuration list for PBXNativeTarget "VPHS-CustomPagingCollectionViewTests" */;
+			buildPhases = (
+				60A4132C53FEE8A13E88785C /* [CP] Check Pods Manifest.lock */,
+				1BCE63B02C0EF0CE007F4E14 /* Sources */,
+				1BCE63B12C0EF0CE007F4E14 /* Frameworks */,
+				1BCE63B22C0EF0CE007F4E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BCE63B62C0EF0CE007F4E14 /* PBXTargetDependency */,
+			);
+			name = "VPHS-CustomPagingCollectionViewTests";
+			productName = "VPHS-CustomPagingCollectionViewTests";
+			productReference = 1BCE63B42C0EF0CE007F4E14 /* VPHS-CustomPagingCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BCE63BD2C0EF0CE007F4E14 /* VPHS-CustomPagingCollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BCE63CE2C0EF0CE007F4E14 /* Build configuration list for PBXNativeTarget "VPHS-CustomPagingCollectionViewUITests" */;
+			buildPhases = (
+				B9E57D335772FD5B5E370157 /* [CP] Check Pods Manifest.lock */,
+				1BCE63BA2C0EF0CE007F4E14 /* Sources */,
+				1BCE63BB2C0EF0CE007F4E14 /* Frameworks */,
+				1BCE63BC2C0EF0CE007F4E14 /* Resources */,
+				01E9990344F887A79B856200 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BCE63C02C0EF0CE007F4E14 /* PBXTargetDependency */,
+			);
+			name = "VPHS-CustomPagingCollectionViewUITests";
+			productName = "VPHS-CustomPagingCollectionViewUITests";
+			productReference = 1BCE63BE2C0EF0CE007F4E14 /* VPHS-CustomPagingCollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BCE63962C0EF0CC007F4E14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1BCE639D2C0EF0CC007F4E14 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1BCE63B32C0EF0CE007F4E14 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1BCE639D2C0EF0CC007F4E14;
+					};
+					1BCE63BD2C0EF0CE007F4E14 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1BCE639D2C0EF0CC007F4E14;
+					};
+				};
+			};
+			buildConfigurationList = 1BCE63992C0EF0CC007F4E14 /* Build configuration list for PBXProject "VPHS-CustomPagingCollectionView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BCE63952C0EF0CC007F4E14;
+			productRefGroup = 1BCE639F2C0EF0CC007F4E14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BCE639D2C0EF0CC007F4E14 /* VPHS-CustomPagingCollectionView */,
+				1BCE63B32C0EF0CE007F4E14 /* VPHS-CustomPagingCollectionViewTests */,
+				1BCE63BD2C0EF0CE007F4E14 /* VPHS-CustomPagingCollectionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BCE639C2C0EF0CC007F4E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BCE63AB2C0EF0CE007F4E14 /* Assets.xcassets in Resources */,
+				1BCE63AE2C0EF0CE007F4E14 /* Base in Resources */,
+				1BCE63A92C0EF0CC007F4E14 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BCE63B22C0EF0CE007F4E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BCE63BC2C0EF0CE007F4E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01E9990344F887A79B856200 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests/Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests/Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests/Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5923A0079E287FE9AFEF4FFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VPHS-CustomPagingCollectionView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60A4132C53FEE8A13E88785C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VPHS-CustomPagingCollectionViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9E57D335772FD5B5E370157 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1BF5FFD2CFB2E6F27BE4B57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VPHS-CustomPagingCollectionView/Pods-VPHS-CustomPagingCollectionView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VPHS-CustomPagingCollectionView/Pods-VPHS-CustomPagingCollectionView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VPHS-CustomPagingCollectionView/Pods-VPHS-CustomPagingCollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BCE639A2C0EF0CC007F4E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BCE63A62C0EF0CC007F4E14 /* ViewController.swift in Sources */,
+				1BCE63D22C0EF16D007F4E14 /* File.swift in Sources */,
+				1BCE63A22C0EF0CC007F4E14 /* AppDelegate.swift in Sources */,
+				1BCE63A42C0EF0CC007F4E14 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BCE63B02C0EF0CE007F4E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BCE63B92C0EF0CE007F4E14 /* VPHS_CustomPagingCollectionViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BCE63BA2C0EF0CE007F4E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BCE63C32C0EF0CE007F4E14 /* VPHS_CustomPagingCollectionViewUITests.swift in Sources */,
+				1BCE63C52C0EF0CE007F4E14 /* VPHS_CustomPagingCollectionViewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BCE63B62C0EF0CE007F4E14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BCE639D2C0EF0CC007F4E14 /* VPHS-CustomPagingCollectionView */;
+			targetProxy = 1BCE63B52C0EF0CE007F4E14 /* PBXContainerItemProxy */;
+		};
+		1BCE63C02C0EF0CE007F4E14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BCE639D2C0EF0CC007F4E14 /* VPHS-CustomPagingCollectionView */;
+			targetProxy = 1BCE63BF2C0EF0CE007F4E14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BCE63A72C0EF0CC007F4E14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BCE63A82C0EF0CC007F4E14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BCE63AC2C0EF0CE007F4E14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BCE63AD2C0EF0CE007F4E14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BCE63C62C0EF0CE007F4E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BCE63C72C0EF0CE007F4E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BCE63C92C0EF0CE007F4E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA5BE4B50AD3DCFBD63751AF /* Pods-VPHS-CustomPagingCollectionView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VPHS-CustomPagingCollectionView/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vphson.VPHS-CustomPagingCollectionView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BCE63CA2C0EF0CE007F4E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A23F499F1037F67A670F4F3 /* Pods-VPHS-CustomPagingCollectionView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VPHS-CustomPagingCollectionView/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vphson.VPHS-CustomPagingCollectionView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1BCE63CC2C0EF0CE007F4E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 042B23158920F181BF16B3F7 /* Pods-VPHS-CustomPagingCollectionViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vphson.VPHS-CustomPagingCollectionViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VPHS-CustomPagingCollectionView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VPHS-CustomPagingCollectionView";
+			};
+			name = Debug;
+		};
+		1BCE63CD2C0EF0CE007F4E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DD16757CBB2EBD84AA2442 /* Pods-VPHS-CustomPagingCollectionViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vphson.VPHS-CustomPagingCollectionViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VPHS-CustomPagingCollectionView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VPHS-CustomPagingCollectionView";
+			};
+			name = Release;
+		};
+		1BCE63CF2C0EF0CE007F4E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E906DE1C2B0C34E8797646B2 /* Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vphson.VPHS-CustomPagingCollectionViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VPHS-CustomPagingCollectionView";
+			};
+			name = Debug;
+		};
+		1BCE63D02C0EF0CE007F4E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0591E95CD1A62EFEF5A19FD8 /* Pods-VPHS-CustomPagingCollectionView-VPHS-CustomPagingCollectionViewUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vphson.VPHS-CustomPagingCollectionViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VPHS-CustomPagingCollectionView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BCE63992C0EF0CC007F4E14 /* Build configuration list for PBXProject "VPHS-CustomPagingCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BCE63C62C0EF0CE007F4E14 /* Debug */,
+				1BCE63C72C0EF0CE007F4E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BCE63C82C0EF0CE007F4E14 /* Build configuration list for PBXNativeTarget "VPHS-CustomPagingCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BCE63C92C0EF0CE007F4E14 /* Debug */,
+				1BCE63CA2C0EF0CE007F4E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BCE63CB2C0EF0CE007F4E14 /* Build configuration list for PBXNativeTarget "VPHS-CustomPagingCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BCE63CC2C0EF0CE007F4E14 /* Debug */,
+				1BCE63CD2C0EF0CE007F4E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BCE63CE2C0EF0CE007F4E14 /* Build configuration list for PBXNativeTarget "VPHS-CustomPagingCollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BCE63CF2C0EF0CE007F4E14 /* Debug */,
+				1BCE63D02C0EF0CE007F4E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BCE63962C0EF0CC007F4E14 /* Project object */;
+}
